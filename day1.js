@@ -15,17 +15,55 @@
     const variable3 = false;
     console.log(variable3);
 
-
     // Activity 3: Data types
     // Task 4: Create variables of different data types(number,string, boolean,
     // object, array) and log each variable's type using the typeof operator.
+    let rollNumber = 1  // Number
+    let myName = "Abhishek"     // String 
+    let passed = true   // Boolean
+
+    console.table([rollNumber,myName,passed])
+
+    let myObj = {
+        Roll_Number: rollNumber,
+        Name: myName,
+        Status: passed,
+    }
+
+    console.log(myObj)
+
+    let myList = [rollNumber,myName,passed]
     
+    console.log(myList)
+    
+    // types
+    console.log("Data           Datatype")
+    console.log("Roll_Number    ",typeof rollNumber)
+    console.log("My_Name        ",typeof myName)
+    console.log("Passed_status  ",typeof passed)
+    console.log("Detail_Object  ",typeof myObj)
+    console.log("Detail_List    ", typeof myList)
     
 // Activity 4: Reassingining Variables
     // Task 5: Declare a variable using let, assign it an initial value, reassign a new
     // value, and log both values to the console.
+    console.log("\nReassigning")
+    let num = 12;
+    console.log(num)
+    num = 18
+    console.log(num)
+
 // Activity 5: Understanding const
     // Task 6: Try reassigning a variable declared with const and observe the error.
+    console.log("\nConstant Handling")
+    const pi = 3.14
+    console.log(pi)
+    // pi = 4                      // this will show the error while compiling
+    console.log(pi) 
+    
+    
+
+    
 // Reature Request:
     // 1. Variable Types Console Log: Write a script that declares variables of different 
     //    data types and logs both the value and type of each variable to the console.
