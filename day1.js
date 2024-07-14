@@ -2,12 +2,24 @@
 // Task and Activities:
 // Activity 1: Variable Declaration
     // Task 1: Declare a variable using var, assign it a number, and log the value on console.
+    var variable1 = 10;
+    console.log(variable1);
+
     // Task 2: Declare a variable using let, assign it a string, and log the value on console.
+    let variable2 = "Abhi";
+    console.log(variable2);
+
+
 // Activity 2: Constant Declaration
     // Task 3: Declare a variable using cosnt, assign it a boolean value, and log the value on console.
-// Activity 3: Data types
+    const variable3 = false;
+    console.log(variable3);
+
+
+    // Activity 3: Data types
     // Task 4: Create variables of different data types(number,string, boolean,
     // object, array) and log each variable's type using the typeof operator.
+    
     
 // Activity 4: Reassingining Variables
     // Task 5: Declare a variable using let, assign it an initial value, reassign a new
